@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
     title: 'Portkey Docs',
-    tagline: 'Open Source Feature Flags',
+    tagline: 'Ship Ambitious Generative AI Apps',
     url: 'https://portkey.ai/',
     baseUrl: '/',
     onBrokenLinks: 'throw',
@@ -86,6 +86,15 @@ module.exports = {
             textColor: '#ffffff',
             isCloseable: true,
         },
+        stylesheets: [
+            '/css/custom-dark-theme.css',
+        ],
+        layoutComponent: require.resolve('./src/layouts/CustomLayout.js'),
+        colorMode: {
+            defaultMode: 'dark',
+            disableSwitch: false,
+            respectPrefersColorScheme: true,
+        },
     },
     presets: [
         [
@@ -96,13 +105,7 @@ module.exports = {
                     routeBasePath: '/',
                     // Please change this to your repo.
                     editUrl: 'https://github.com/Portkey-AI/tree/main/docs/',
-                    lastVersion: 'current',
-                    versions: {
-                        current: {
-                            label: 'v2.0',
-                            badge: false,
-                        }
-                    },
+                    lastVersion: 'current'
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),

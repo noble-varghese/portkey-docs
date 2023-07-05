@@ -1,0 +1,27 @@
+/* Modify the dark theme colors */
+.theme-dark {
+    /* Background color */
+    background-color: #333333;
+    /* Replace with your desired dark background color */
+
+    /* Text color */
+    color: #ffffff;
+    /* Replace with your desired text color */
+
+    /* Link color */
+    a {
+        color: #ff0000;
+        /* Replace with your desired link color */
+    }
+
+    /* Heading color */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #00ff00;
+        /* Replace with your desired heading color */
+    }
+}

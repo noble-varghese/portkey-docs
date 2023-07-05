@@ -3,7 +3,7 @@ sidebar_position: 2
 sidebar_label: Quick Start
 ---
 
-# Portkey Quick Start Guide
+# API Reference
 
 Let's get up and running in 5 minutes. We're going to run through the following steps:
 

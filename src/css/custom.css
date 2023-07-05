@@ -34,3 +34,51 @@
     --ifm-font-family-base: 'Open Sans Regular';
     --ifm-font-size-base: 92%;
 }
+
+
+/* custom.css */
+
+.two-column-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-column {
+    flex-basis: 70%;
+    padding-right: 1rem;
+}
+
+.code-column {
+    flex-basis: 30%;
+}
+
+.language-dropdown {
+    margin-bottom: 1rem;
+}
+
+.code-container {
+    position: relative;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+pre {
+    background-color: #f09b9b;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    white-space: pre;
+}
+
+.copy-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.5rem;
+    background-color: #484444;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* 1A1F35 */

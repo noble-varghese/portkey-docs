@@ -8,8 +8,7 @@ Open Source, Saas hosted and Enterprise versions:
 
 :::tip
 
-You can switch between SaaS and Self Hosted Flagsmith using our
-[Import and Export tools](deployment/configuration/importing-and-exporting.md).
+You can switch between SaaS and Self Hosted Portkey using our docs
 
 :::
 
